@@ -102,7 +102,7 @@ body {
 @keyframes animateGrain {
   0%,
   100% {
-    transform: translate(0%, 0%);
+    transform: translate(-5%, -5%);
   }
   10% {
     transform: translate(-5%, -10%);
@@ -130,9 +130,6 @@ body {
   }
   90% {
     transform: translate(-5%, -10%);
-  }
-  100% {
-    transform: translate(-15%, -20%);
   }
 }
 

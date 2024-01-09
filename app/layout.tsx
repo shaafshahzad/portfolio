@@ -1,7 +1,8 @@
 import type { Metadata } from "next";
 import { JetBrains_Mono } from "next/font/google";
-import Navbar from "./components/Navbar";
+import Navbar from "../components/Navbar";
 import "./globals.css";
+import Image from "next/image";
 
 const jetBrains = JetBrains_Mono({ subsets: ["latin"] });
 
@@ -36,17 +37,21 @@ export default function RootLayout({
                   target="_blank"
                   rel="noopener noreferrer"
                 >
-                  <img
+                  <Image
                     src="/github.png"
-                    className="w-6 filter-e2e8f0"
+                    className="filter-e2e8f0"
                     alt="GitHub"
+                    width={24}
+                    height={24}
                   />
                 </a>
                 <a href="https://www.linkedin.com/in/shaafshahzad">
-                  <img
+                  <Image
                     src="/linkedin.png"
                     className="w-6 filter-e2e8f0"
                     alt="LinkedIn"
+                    width={24}
+                    height={24}
                   />
                 </a>
                 <a
@@ -54,10 +59,12 @@ export default function RootLayout({
                   target="_blank"
                   rel="noopener noreferrer"
                 >
-                  <img
+                  <Image
                     src="/instagram.png"
                     className="w-6 filter-e2e8f0"
                     alt="Instagram"
+                    width={24}
+                    height={24}
                   />
                 </a>{" "}
               </div>

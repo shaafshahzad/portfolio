@@ -33,8 +33,8 @@ body {
 .bg-gradient:after {
   content: "";
   background-image: url("https://upload.wikimedia.org/wikipedia/commons/7/76/1k_Dissolve_Noise_Texture.png");
-  height: 400%;
-  width: 400%;
+  height: 800%;
+  width: 800%;
   position: fixed;
   opacity: 0.05;
   animation: animateGrain 8s steps(10) infinite;

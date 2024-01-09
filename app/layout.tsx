@@ -45,7 +45,11 @@ export default function RootLayout({
                     height={24}
                   />
                 </a>
-                <a href="https://www.linkedin.com/in/shaafshahzad">
+                <a
+                  href="https://www.linkedin.com/in/shaafshahzad"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
                   <Image
                     src="/linkedin.png"
                     className="w-6 filter-e2e8f0"

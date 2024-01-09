@@ -1,0 +1,156 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  width: 100vw;
+  height: 100vh;
+  overflow-x: hidden;
+  overflow-y: hidden;
+  color: #e2e8f0;
+}
+
+.bg-gradient {
+  background-color: hsla(240, 100%, 18%, 1);
+  background-image: radial-gradient(
+      at 14% 21%,
+      hsla(204, 100%, 7%, 1) 0px,
+      transparent 50%
+    ),
+    radial-gradient(at 84% 88%, hsla(204, 100%, 7%, 1) 0px, transparent 50%),
+    radial-gradient(at 75% 64%, hsla(204, 100%, 7%, 1) 0px, transparent 50%),
+    radial-gradient(at 73% 29%, hsla(204, 100%, 7%, 1) 0px, transparent 50%),
+    radial-gradient(at 29% 91%, hsla(204, 100%, 7%, 1) 0px, transparent 50%),
+    radial-gradient(at 92% 41%, hsla(204, 100%, 7%, 1) 0px, transparent 50%),
+    radial-gradient(at 66% 14%, hsla(204, 100%, 7%, 1) 0px, transparent 50%),
+    radial-gradient(at 9% 63%, hsla(204, 100%, 7%, 1) 0px, transparent 50%),
+    radial-gradient(at 98% 75%, hsla(203, 100%, 7%, 1) 0px, transparent 50%),
+    radial-gradient(at 45% 69%, hsla(204, 100%, 7%, 1) 0px, transparent 50%);
+  background-size: 200% 200%;
+  animation: gradientAnimation 20s ease infinite;
+}
+
+.bg-gradient:after {
+  content: "";
+  background-image: url("https://upload.wikimedia.org/wikipedia/commons/7/76/1k_Dissolve_Noise_Texture.png");
+  height: 400%;
+  width: 400%;
+  position: fixed;
+  opacity: 0.05;
+  animation: animateGrain 8s steps(10) infinite;
+  pointer-events: none;
+}
+
+.filter-e2e8f0 {
+  filter: invert(32%) sepia(17%) saturate(707%) hue-rotate(176deg)
+    brightness(40%) contrast(88%);
+}
+
+.subheader {
+  overflow: hidden;
+  border-right: 0.15em solid orange;
+  white-space: nowrap;
+  letter-spacing: 0.15em;
+  animation: typing 3s steps(40, end), blink-caret 0.75s step-end infinite;
+  text-align: left;
+}
+
+.active {
+  color: #e2e8f0;
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #888;
+  border-radius: 5px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+
+@keyframes gradientAnimation {
+  0%,
+  100% {
+    background-position: 0% 25%;
+    rotation: 0deg;
+  }
+  20% {
+    background-position: 50% 25%;
+  }
+  40% {
+    background-position: 100% 50%;
+  }
+  50% {
+    rotation: 360deg;
+  }
+  60% {
+    background-position: 25% 50%;
+  }
+  80% {
+    background-position: 0% 75%;
+  }
+}
+
+@keyframes animateGrain {
+  0%,
+  100% {
+    transform: translate(-5%, -5%);
+  }
+  10% {
+    transform: translate(-5%, -10%);
+  }
+  20% {
+    transform: translate(-15%, -20%);
+  }
+  30% {
+    transform: translate(-5%, -10%);
+  }
+  40% {
+    transform: translate(-15%, -20%);
+  }
+  50% {
+    transform: translate(-5%, -10%);
+  }
+  60% {
+    transform: translate(-15%, -20%);
+  }
+  70% {
+    transform: translate(-5%, -10%);
+  }
+  80% {
+    transform: translate(-15%, -20%);
+  }
+  90% {
+    transform: translate(-5%, -10%);
+  }
+  100% {
+    transform: translate(-15%, -20%);
+  }
+}
+
+@keyframes typing {
+  from {
+    width: 0;
+  }
+  to {
+    width: 100%;
+  }
+}
+
+@keyframes blink-caret {
+  from,
+  to {
+    border-color: transparent;
+  }
+  50% {
+    border-color: #f8c8dc;
+  }
+}

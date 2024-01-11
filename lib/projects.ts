@@ -1,12 +1,5 @@
 export const projects = [
     {
-      name: "Linus",
-      description: "A self-learning copilot for aspiring software engineers.",
-      previewImage: "/linus.png",
-      tools: ["TypeScript", "Next.js", "TailwindCSS", "Firebase", "Python"],
-      linkTo: "",
-    },
-    {
       name: "Project Inosculation",
       description:
         "A web-based platform that allows users to build, collaborate on, and merge family trees.",
@@ -36,6 +29,13 @@ export const projects = [
         "ClerkAuth",
       ],
       linkTo: "https://project-4-0.vercel.app/",
+    },
+    {
+      name: "Linus",
+      description: "A self-learning copilot for aspiring software engineers.",
+      previewImage: "/linus.png",
+      tools: ["TypeScript", "Next.js", "TailwindCSS", "Firebase", "Python"],
+      linkTo: "",
     },
     {
       name: "Streek - A Habit Tracking App",

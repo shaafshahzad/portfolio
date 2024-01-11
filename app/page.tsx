@@ -11,7 +11,11 @@ export default function Home() {
         development 🌐, AI 🧠, and machine learning 📊
       </p>
       <br />
-      <p>When I'm not at the computer,</p>
+      <p>
+        When I'm not at the computer, I'm either dozing off 😴 amidst a sea of
+        circuits during ELE lectures, or intently focused on subjects that
+        ignite my curiosity and drive my passion for technology 🔥💡
+      </p>
       <br />
       <p>
         If you're interested in discussing technology, projects, or just want to

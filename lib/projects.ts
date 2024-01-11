@@ -26,7 +26,7 @@ export const projects = [
       name: "Project 4.0",
       description:
         "A web-based platform providing tools to help you achieve that 4.0 GPA",
-      previewImage: "/portfolio.png",
+      previewImage: "/project4.0.png",
       tools: [
         "TypeScript",
         "Next.js",
@@ -35,7 +35,7 @@ export const projects = [
         "Python",
         "ClerkAuth",
       ],
-      linkTo: "",
+      linkTo: "https://project-4-0.vercel.app/",
     },
     {
       name: "Streek - A Habit Tracking App",

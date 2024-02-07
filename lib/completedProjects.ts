@@ -1,7 +1,7 @@
 export const completedProjects = [
     {
         name: "DeepEnd",
-        description: "GDSC McMaster Best Project Winner! 🏆 \n A self-learning copilot using project based learning. A sub-component of the Linus project.",
+        description: "GDSC McMaster Best Overall Hack! 🏆 \n A self-learning copilot using project based learning.",
         previewImage: "/deepend.png",
         tools: ["TypeScript", "Next.js", "Firebase", "TailwindCSS", "OpenAI API"],
         linkTo: "https://deep-end.vercel.app/",

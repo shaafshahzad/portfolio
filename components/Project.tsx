@@ -33,7 +33,9 @@ const Project = ({
 							{name}
 							<ArrowTopRightIcon className="ml-2 w-5 h-5 group-hover:text-[#f8c8dc] group-hover:-translate-y-1 group-hover:translate-x-1 transition duration-200" />
 						</h2>
-						<p className="text-xs mb-2">{description}</p>
+						<p className="text-xs mb-2 whitespace-pre-line">
+							{description}
+						</p>
 					</div>
 					<div className="flex flex-wrap w-1/3">
 						{tools.map((tool) => (

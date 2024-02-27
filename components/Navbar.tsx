@@ -9,7 +9,7 @@ const Navbar = () => {
 	const isActive = (path: string) => pathname === path;
 
 	return (
-		<div className="flex flex-col mt-10 font-bold text-sm">
+		<div className="md:h-full flex flex-col pt-4 sm:pt-10 font-bold text-xs md:text-sm">
 			<a
 				href="/"
 				className={`group flex items-center py-2 ${

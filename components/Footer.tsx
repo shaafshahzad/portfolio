@@ -4,8 +4,8 @@ import Link from "next/link";
 
 const Footer = () => {
 	return (
-		<div className="flex h-full w-1/2 justify-start items-end">
-			<div className="flex flex-row gap-8 w-1/2 mt-10">
+		<div className="flex w-1/2 justify-start items-end">
+			<div className="flex flex-row gap-8 mt-10">
 				<Link
 					href="https://github.com/shaafshahzad"
 					target="_blank"

@@ -2,7 +2,7 @@ import React from "react";
 
 export default function Home() {
 	return (
-		<div className="w-full h-full flex flex-col justify-center items-center text-center">
+		<div className="w-full h-full flex flex-col justify-center items-center text-center text-[12px] md:text-md lg:text-lg">
 			<h1>Hey, I'm Shaaf! 👋😄</h1>
 			<br />
 			<p>

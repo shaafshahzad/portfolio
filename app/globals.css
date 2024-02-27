@@ -47,15 +47,6 @@ body {
 		brightness(40%) contrast(88%);
 }
 
-.subheader {
-	overflow: hidden;
-	border-right: 0.15em solid orange;
-	white-space: nowrap;
-	letter-spacing: 0.15em;
-	animation: typing 3s steps(40, end), blink-caret 0.75s step-end infinite;
-	text-align: left;
-}
-
 .active {
 	color: #e2e8f0;
 }
@@ -131,24 +122,5 @@ body {
 	}
 	90% {
 		transform: translate(-5%, -10%);
-	}
-}
-
-@keyframes typing {
-	from {
-		width: 0;
-	}
-	to {
-		width: 100%;
-	}
-}
-
-@keyframes blink-caret {
-	from,
-	to {
-		border-color: transparent;
-	}
-	50% {
-		border-color: #f8c8dc;
 	}
 }

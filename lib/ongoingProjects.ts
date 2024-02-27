@@ -5,7 +5,7 @@ export const ongoingProjects = [
 			"A web-based platform providing tools to help you achieve that 4.0 GPA.",
 		previewImage: "/project4.0.png",
 		tools: ["TypeScript", "Next.js", "TailwindCSS", "Firebase"],
-		linkTo: "https://project-4-0.vercel.app/",
+		linkTo: "https://github.com/shaafshahzad/project-4.0",
 	},
 	{
 		name: "Project Inosculation",
@@ -21,6 +21,6 @@ export const ongoingProjects = [
 			"Node.js",
 			"Neo4j",
 		],
-		linkTo: "",
+		linkTo: "https://github.com/shaafshahzad/project-inosculation",
 	},
 ];

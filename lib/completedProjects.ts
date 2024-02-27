@@ -11,7 +11,7 @@ export const completedProjects = [
 			"TailwindCSS",
 			"OpenAI API",
 		],
-		linkTo: "https://deep-end.vercel.app/",
+		linkTo: "https://github.com/shaafshahzad/DeepEnd",
 	},
 	{
 		name: "Intellex",
@@ -33,7 +33,7 @@ export const completedProjects = [
 			"A web-based platform that allows users to display their currently playing Spotify song.",
 		previewImage: "/spotifymusicdisplay.png",
 		tools: ["TypeScript", "Next.js", "TailwindCSS", "Spotify API"],
-		linkTo: "https://spotify-music-display.vercel.app/",
+		linkTo: "https://github.com/shaafshahzad/SpotifyMusicDisplay",
 	},
 	{
 		name: "Streeks",
@@ -56,6 +56,6 @@ export const completedProjects = [
 			"Analyzing diabetes prevalence throughout Canada through a TensorFlow prediction model.",
 		previewImage: "/chsa.png",
 		tools: ["C", "Python", "Tensorflow", "gnuplot"],
-		linkTo: "",
+		linkTo: "https://github.com/shaafshahzad/cps-final-project",
 	},
 ];

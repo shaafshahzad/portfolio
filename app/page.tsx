@@ -13,9 +13,9 @@ export default function Home() {
 			<br />
 			<p>
 				When I'm not at the computer, I'm either dozing off 😴 amidst a
-				sea of circuits during ELE lectures ⚡, or intently focused on
-				subjects that ignite my curiosity and drive my passion for
-				technology 🔥💡
+				sea of circuits during ELE lectures ⚡, or eagerly expanding my
+				knowledge and exploring new insights that benefit and fuel my
+				passion for technology 🔥💡
 			</p>
 			<br />
 			<p>

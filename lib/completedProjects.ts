@@ -58,4 +58,19 @@ export const completedProjects = [
 		tools: ["C", "Python", "Tensorflow", "gnuplot"],
 		linkTo: "https://github.com/shaafshahzad/cps-final-project",
 	},
+	{
+		name: "Geography Gauntlet",
+		description:
+			"An educational game that quizzes users on their knowledge of world geography.",
+		previewImage: "/geographygauntlet.png",
+		tools: [
+			"TypeScript",
+			"Next.js",
+			"Drizzle",
+			"TailwindCSS",
+			"tRPC",
+			"PostgreSQL",
+		],
+		linkTo: "https://geogauntlet.vercel.app/",
+	},
 ];

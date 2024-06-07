@@ -10,6 +10,7 @@ const jetBrains = JetBrains_Mono({ subsets: ["latin"] });
 export const metadata: Metadata = {
 	title: "Shaaf Shahzad",
 	description: "Personal Portfolio of Shaaf Shahzad",
+	icons: [{ rel: "icon", url: "/favicon.ico" }],
 };
 
 export default function RootLayout({

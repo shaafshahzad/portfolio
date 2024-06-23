@@ -18,16 +18,16 @@ body {
 			transparent 50%
 		),
 		radial-gradient(at 84% 88%, hsla(204, 100%, 7%, 1) 0px, transparent 50%),
-		radial-gradient(at 75% 64%, hsla(204, 100%, 7%, 1) 0px, transparent 50%),
-		radial-gradient(at 73% 29%, hsla(204, 100%, 7%, 1) 0px, transparent 50%),
-		radial-gradient(at 29% 91%, hsla(204, 100%, 7%, 1) 0px, transparent 50%),
-		radial-gradient(at 92% 41%, hsla(204, 100%, 7%, 1) 0px, transparent 50%),
-		radial-gradient(at 66% 14%, hsla(204, 100%, 7%, 1) 0px, transparent 50%),
-		radial-gradient(at 9% 63%, hsla(204, 100%, 7%, 1) 0px, transparent 50%),
-		radial-gradient(at 98% 75%, hsla(203, 100%, 7%, 1) 0px, transparent 50%),
+		radial-gradient(at 75% 64%, rgb(13, 0, 36) 0px, transparent 50%),
+		radial-gradient(at 73% 29%, rgb(36, 0, 22) 0px, transparent 50%),
+		radial-gradient(at 29% 91%, rgb(36, 13, 0) 0px, transparent 50%),
+		radial-gradient(at 92% 41%, rgb(34, 36, 0) 0px, transparent 50%),
+		radial-gradient(at 66% 14%, rgb(16, 36, 0) 0px, transparent 50%),
+		radial-gradient(at 9% 63%, rgb(0, 36, 6) 0px, transparent 50%),
+		radial-gradient(at 98% 75%, rgb(0, 36, 31) 0px, transparent 50%),
 		radial-gradient(at 45% 69%, hsla(204, 100%, 7%, 1) 0px, transparent 50%);
 	background-size: 200% 200%;
-	animation: gradientAnimation 20s ease infinite;
+	animation: gradientAnimation 30s ease infinite;
 }
 
 .bg-gradient:after {
@@ -69,25 +69,46 @@ body {
 }
 
 @keyframes gradientAnimation {
-	0%,
+	0%, 
 	100% {
 		background-position: 0% 25%;
 		rotation: 0deg;
 	}
+	10% {
+		background-position: 25% 25%;
+		rotation: 45deg;
+	}
 	20% {
 		background-position: 50% 25%;
+		rotation: 90deg;
+	}
+	30% {
+		background-position: 75% 25%;
+		rotation: 135deg;
 	}
 	40% {
 		background-position: 100% 50%;
+		rotation: 180deg;
 	}
 	50% {
-		rotation: 360deg;
+		background-position: 100% 100%;
+		rotation: 225deg;
 	}
 	60% {
+		background-position: 50% 50%;
+		rotation: 270deg;
+	}
+	70% {
 		background-position: 25% 50%;
+		rotation: 315deg;
 	}
 	80% {
 		background-position: 0% 75%;
+		rotation: 360deg;
+	}
+	90% {
+		background-position: 25% 75%;
+		rotation: 405deg;
 	}
 }
 

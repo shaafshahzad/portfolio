@@ -1,7 +1,6 @@
 import React from "react";
 import { ArrowTopRightIcon } from "@radix-ui/react-icons";
 import Link from "next/link";
-import { tools as toolColors } from "../lib/tools";
 
 interface ProjectProps {
   name: string;
@@ -35,22 +34,14 @@ const Project = ({
             <p className="text-xs mb-2 whitespace-pre-line">{description}</p>
           </div>
           <div className="flex flex-wrap md:w-[47%] items-start">
-            {tools.map((tool) => {
-              const toolStyle = toolColors[tool as keyof typeof toolColors];
-              return (
-                <span
-                  key={tool}
-                  className="rounded-full px-3 py-1 text-[10px] sm:text-xs font-semibold mr-2 mb-2 h-fit transition duration-300 transform hover:-translate-y-1"
-                  style={{
-                    backgroundColor: toolStyle?.backgroundColor,
-                    color: toolStyle?.color,
-                    boxShadow: `0 0 6px ${toolStyle?.backgroundColor}`,
-                  }}
-                >
-                  {tool}
-                </span>
-              );
-            })}
+            {tools.map((tool) => (
+              <span
+                key={tool}
+                className="bg-gray-700 rounded-full px-3 py-1 text-[10px] sm:text-xs font-semibold text-gray-200 mr-2 mb-2 h-fit"
+              >
+                {tool}
+              </span>
+            ))}
           </div>
         </div>
       </div>

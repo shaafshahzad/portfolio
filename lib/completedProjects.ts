@@ -18,7 +18,7 @@ export const completedProjects = [
   {
     name: "Spotify Music Display",
     description:
-      "A web-based platform that allows users to display their currently playing Spotify song.",
+      "A website that allows users to display their currently playing song with beautiful gradient backgrounds.",
     previewImage: "/spotifymusicdisplay.png",
     tools: ["TypeScript", "Next.js", "TailwindCSS", "Spotify API"],
     linkTo: "https://github.com/shaafshahzad/SpotifyMusicDisplay",
@@ -60,5 +60,13 @@ export const completedProjects = [
       "Clerk Auth",
     ],
     linkTo: "https://geogauntlet.vercel.app/",
+  },
+  {
+    name: "Project 4.0",
+    description:
+      "A web-based platform providing tools to help you achieve that 4.0 GPA.",
+    previewImage: "/project4.0.png",
+    tools: ["TypeScript", "Next.js", "TailwindCSS", "Firebase"],
+    linkTo: "https://github.com/shaafshahzad/project-4.0",
   },
 ];

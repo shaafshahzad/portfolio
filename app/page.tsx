@@ -6,7 +6,7 @@ export default function Home() {
       <h1>Hey, I'm Shaaf! 👋😄</h1>
       <br />
       <p>
-        I'm a second-year Computer Engineering student 💻🎓 at Toronto
+        I'm a third-year Computer Engineering student 💻🎓 at Toronto
         Metropolitan University, deeply passionate about the vast fields of web
         development 🌐, AI 🧠, and machine learning 📊
       </p>

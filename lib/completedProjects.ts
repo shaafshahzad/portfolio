@@ -16,36 +16,6 @@ export const completedProjects = [
     linkTo: "https://github.com/shaafshahzad/intellex",
   },
   {
-    name: "Spotify Music Display",
-    description:
-      "A website that allows users to display their currently playing song with beautiful gradient backgrounds.",
-    previewImage: "/spotifymusicdisplay.png",
-    tools: ["TypeScript", "Next.js", "TailwindCSS", "Spotify API"],
-    linkTo: "https://github.com/shaafshahzad/SpotifyMusicDisplay",
-  },
-  {
-    name: "Streeks",
-    description: "A simple habit tracking app built in React Native with Expo.",
-    previewImage: "/streeks.png",
-    tools: [
-      "React Native",
-      "JavaScript",
-      "Expo",
-      "Express",
-      "MySQL",
-      "Clerk Auth",
-    ],
-    linkTo: "https://github.com/shaafshahzad/habit-tracking-app",
-  },
-  {
-    name: "Canadian Health Statistics Analysis",
-    description:
-      "Analyzing diabetes prevalence throughout Canada through a TensorFlow prediction model.",
-    previewImage: "/chsa.png",
-    tools: ["C", "Python", "Tensorflow", "gnuplot"],
-    linkTo: "https://github.com/shaafshahzad/cps-final-project",
-  },
-  {
     name: "Geography Gauntlet",
     description:
       "An educational game that quizzes users on their knowledge of world geography.",
@@ -68,5 +38,35 @@ export const completedProjects = [
     previewImage: "/project4.0.png",
     tools: ["TypeScript", "Next.js", "TailwindCSS", "Firebase"],
     linkTo: "https://github.com/shaafshahzad/project-4.0",
+  },
+  {
+    name: "Spotify Music Display",
+    description:
+      "A website that allows users to display their currently playing song with beautiful gradient backgrounds.",
+    previewImage: "/spotifymusicdisplay.png",
+    tools: ["TypeScript", "Next.js", "TailwindCSS", "Spotify API"],
+    linkTo: "https://github.com/shaafshahzad/SpotifyMusicDisplay",
+  },
+  {
+    name: "Canadian Health Statistics Analysis",
+    description:
+      "Analyzing diabetes prevalence throughout Canada through a TensorFlow prediction model.",
+    previewImage: "/chsa.png",
+    tools: ["C", "Python", "Tensorflow", "gnuplot"],
+    linkTo: "https://github.com/shaafshahzad/cps-final-project",
+  },
+  {
+    name: "Streeks",
+    description: "A simple habit tracking app built in React Native with Expo.",
+    previewImage: "/streeks.png",
+    tools: [
+      "React Native",
+      "JavaScript",
+      "Expo",
+      "Express",
+      "MySQL",
+      "Clerk Auth",
+    ],
+    linkTo: "https://github.com/shaafshahzad/habit-tracking-app",
   },
 ];

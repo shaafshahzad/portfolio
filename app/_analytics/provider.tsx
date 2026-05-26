@@ -3,15 +3,16 @@
 import posthog from "posthog-js";
 import { PostHogProvider } from "posthog-js/react";
 
-if (typeof window !== "undefined") {
-  console.log("PostHog Key:", process.env.NEXT_PUBLIC_POSTHOG_KEY);
-  console.log("PostHog Host:", process.env.NEXT_PUBLIC_POSTHOG_HOST);
+const posthogKey = process.env.NEXT_PUBLIC_POSTHOG_KEY;
 
-  posthog.init(process.env.NEXT_PUBLIC_POSTHOG_KEY!, {
-    api_host: process.env.NEXT_PUBLIC_POSTHOG_HOST,
-    ui_host: "https://app.posthog.com",
+if (typeof window !== "undefined" && posthogKey) {
+  posthog.init(posthogKey, {
+    api_host: "/relay",
+    ui_host: process.env.NEXT_PUBLIC_POSTHOG_UI_HOST || "https://us.posthog.com",
+    person_profiles: "identified_only",
   });
 }
+
 export function CSPostHogProvider({ children }: { children: React.ReactNode }) {
   return <PostHogProvider client={posthog}>{children}</PostHogProvider>;
 }
